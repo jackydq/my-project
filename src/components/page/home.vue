@@ -1,6 +1,7 @@
 <template>
-  <div class="home">
-    <my-sider></my-sider>
+  <div class="page-container page-home">
+    <!--调用组件 左侧菜单-->
+    <my-sider :data="msg"></my-sider>
 
     <div class="main-box">
       <router-view></router-view>

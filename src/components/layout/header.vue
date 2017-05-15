@@ -1,21 +1,31 @@
+<style>
+
+</style>
+
 <template>
   <header>
     <div class="logo-box">
       <img src="../../assets/logo.png">
     </div>
     <div class="nav-box">
-      <router-link to="/">首页</router-link>
-      <router-link to="/src">资源</router-link>
+      <template v-for="item in topMenu">
+        <router-link :to="item.path">{{item.name}}</router-link>
+      </template>
     </div>
   </header>
 </template>
 
 <script>
+import topmenu from '../json/component.json';
+
 export default {
-  name: 'header'
+  name: 'header',
+  computed:{
+      topMenu(){
+        return topmenu;
+      }
+  }
 }
 </script>
 
-<style>
 
-</style>

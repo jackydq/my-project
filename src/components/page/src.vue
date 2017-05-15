@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="page-container page-src">
     <my-sider></my-sider>
 
     <div class="main-box">

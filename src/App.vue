@@ -3,7 +3,10 @@
     <!--调用组件 头部导航-->
     <my-header></my-header>
 
-    <router-view></router-view>
+    <!--页面主体-->
+    <div class="main-cnt">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
@@ -49,7 +52,7 @@ header .nav-box { float:left; width: -webkit-calc( 100% - 100px) ; height:100%; 
 
 .nav-box a.router-link-exact-active{ background-color:#165a77;}
 
-.home{ position:absolute; top:60px; bottom:0; left:0; right:0; z-index:100;}
+.main-cnt{ position:absolute; top:60px; bottom:0; left:0; right:0; z-index:100;}
 
 .sider-box{ position: fixed; top:60px; bottom:0; left:0; width:100px; background-color:#333; color:#fff;}
 .main-box {

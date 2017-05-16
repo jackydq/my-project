@@ -7,7 +7,7 @@ export default {
   name: 'myAcount',
   data: function () {
     return {
-      msg: 'This is myAcount'
+      msg: '我的账户'
     }
   }
 }

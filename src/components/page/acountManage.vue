@@ -7,7 +7,7 @@ export default {
   name: 'acountManage',
   data: function () {
     return {
-      msg: 'This is acountManage'
+      msg: '账户管理'
     }
   }
 }

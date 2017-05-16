@@ -20,10 +20,10 @@ import topmenu from '../json/component.json';
 
 export default {
   name: 'header',
-  computed:{
-      topMenu(){
-        return topmenu;
-      }
+  data: function(){
+     return {
+        topMenu:topmenu
+     }
   }
 }
 </script>

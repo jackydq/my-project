@@ -7,7 +7,7 @@ export default {
   name: 'orderManage',
   data: function () {
     return {
-      msg: 'This is orderManage'
+      msg: '订单管理'
     }
   }
 }

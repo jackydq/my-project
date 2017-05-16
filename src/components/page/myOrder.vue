@@ -7,7 +7,7 @@ export default {
   name: 'myOrder',
   data: function () {
     return {
-      msg: 'This is myOrder'
+      msg: '我的订单'
     }
   }
 }

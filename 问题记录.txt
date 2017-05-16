@@ -4,11 +4,16 @@
 
 2. 嵌套子路由组件在哪个模版里渲染？
 
-
 3. webpack.base.conf.js 中去掉 eslint 的严格检测 eslint-loader
 
-4. 嵌套路由 点击后的头部着色问题
+4. 嵌套路由 点击后的头部着色问题( element 的着色 default-active)
 
 5. sider 组件取数据的问题
 
-6. 组件传参
+6. 组件传参     ok(:绑定  props 获取)
+
+7. 组件全局注册 ok 
+
+8. vue 自定义过滤器
+
+9. 切换路由后 跳动问题

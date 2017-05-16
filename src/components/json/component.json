@@ -4,12 +4,26 @@
         "path":"/",
         "sideMenu":[
             {
-                "name":"订单管理",
-                "path":""
+                "path":"/",
+                "title":"账户管理"
             },
             {
-                "name":"账户管理",
-                "path":"acount"
+                "path":"/order",
+                "title":"订单管理"
+            }
+         ]
+    },
+    {
+        "name":"资源",
+        "path":"/src",
+        "sideMenu":[
+            {
+                "path":"/src",
+                "title":"我的账户"
+            },
+            {
+                "path":"/src/order",
+                "title":"我的订单"
             }
          ]
     },
@@ -20,9 +34,5 @@
     {
         "name":"组件",
         "path":"/components"
-    },
-    {
-        "name":"资源",
-        "path":"/src"
     }
 ]
